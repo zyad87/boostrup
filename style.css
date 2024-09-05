@@ -79,6 +79,22 @@
     fill: #6f42c1; /* لون بنفسجي للأيقونة */
   }
 
+  .text-primary {
+    color: #754ffe;
+  }
+  
+  .img-fluid {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  .rounded-circle {
+    border-radius: 50%;
+  }
+  
+  .lead {
+    font-size: 1.25rem;
+  }
   
 
   @media (max-width: 768px) {
@@ -103,4 +119,22 @@
         display: none;
         border-radius: 50%;
     }
+}
+
+
+.version {
+    color: #7f56d9;
+    font-weight: bold;
+    margin-left: 5px;
+  }
+  .submit-button {
+    background-color: #754ffe;
+  }
+  
+  .submit-button:hover {
+    background-color: #754ffe;
+  }  
+
+  .shadow-sm {
+    box-shadow: 0 0 0.25rem rgba(0, 0, 0, 0.075) !important;
 }
