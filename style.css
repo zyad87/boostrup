@@ -108,6 +108,9 @@
 .navbar-brand{
     margin-right: 170px;
 }
+#input1{
+    display: none !important;
+}
 }
 
 @media (min-width: 1024px) {
